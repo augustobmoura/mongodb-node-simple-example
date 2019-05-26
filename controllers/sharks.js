@@ -1,5 +1,5 @@
 const path = require('path');
-const Shark = require('../models/sharks');
+const Shark = require('../models/shark');
 
 exports.index = (req, res) => {
     res.sendFile(path.resolve('views/sharks.html'));
